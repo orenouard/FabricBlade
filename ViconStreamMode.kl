@@ -1,0 +1,15 @@
+/*
+ * Fabric Core 1.11.4
+ * Vicon Datastream EDK Sample
+ */
+
+struct ViconStreamMode
+{
+    Data handle;
+};
+
+function ViconStreamMode(String name) = "ViconStreamModeFromString";
+function Integer ViconStreamMode.asCode() = "ViconStreamModeAsCode";
+function String ViconStreamMode.asString() = "ViconStreamModeAsString";
+function Boolean == (ViconStreamMode a, ViconStreamMode b) = "ViconStreamModeEqual";
+function Boolean != (ViconStreamMode a, ViconStreamMode b) = "ViconStreamModeNotEqual";

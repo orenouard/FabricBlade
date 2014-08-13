@@ -1,0 +1,17 @@
+/*
+ * Fabric Core 1.11.4
+ * Vicon Datastream EDK Sample
+ */
+
+struct ViconTimeCode
+{
+    UInt32 Hours;
+    UInt32 Minutes;
+    UInt32 Seconds;
+    UInt32 Frames;
+    UInt32 SubFrame;
+    Boolean FieldFlag;
+    ViconTimeCodeStandard Standard;
+    UInt32 SubFramesPerFrame;
+    UInt32 UserBits;    
+};

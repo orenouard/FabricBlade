@@ -1,0 +1,95 @@
+/*
+ * Fabric Core 1.11.4
+ * Vicon Datastream EDK Sample
+ */
+
+// I stored the ViconResult for the last command in the ViconClient.
+// DataStream API way of returning it in every method reults is cumbersome
+// so I didn't want to include it in returns.
+
+require Math;
+
+object ViconClient {
+  Data handle;
+
+  ViconResult result;
+};
+
+function ViconClient() = "ViconClientConstructor";
+function ~ViconClient() = "ViconClientDestructor";
+
+function ViconVersion ViconClient.getVersion() = "ViconClientGetVersion";
+
+function ViconClient.connect(String hostName) = "ViconClientConnect";
+function ViconClient.connectToMulticast(String hostName, String multicastIP) = "ViconClientConnectToMulticast";
+function ViconClient.disconnect() = "ViconClientDisconnect";
+function Boolean ViconClient.isConnected() = "ViconClientIsConnected";
+
+function ViconClient.startTransmittingMulticast(String serverIP, String multicastIP) = "ViconClientStartTransmittingMulticast";
+function ViconClient.stopTransmittingMulticast() = "ViconClientStopTransmittingMulticast";
+
+function ViconClient.enableSegmentData(Boolean flag) = "ViconClientEnableSegmentData";
+inline ViconClient.enableSegmentData() { this.enableSegmentData(true); }
+inline ViconClient.disableSegmentData() { this.enableSegmentData(false); }
+
+function ViconClient.enableMarkerData(Boolean flag) = "ViconClientEnableMarkerData";
+inline ViconClient.enableMarkerData() { this.enableMarkerData(true); }
+inline ViconClient.disableMarkerData() { this.enableMarkerData(false); }
+
+function ViconClient.enableUnlabeledMarkerData(Boolean flag) = "ViconClientEnableUnlabeledMarkerData";
+inline ViconClient.enableUnlabeledMarkerData() { this.enableUnlabeledMarkerData(true); }
+inline ViconClient.disableUnlabeledMarkerData() { this.enableUnlabeledMarkerData(false); }
+
+function ViconClient.enableDeviceData(Boolean flag) = "ViconClientEnableDeviceData";
+inline ViconClient.enableDeviceData() { this.enableDeviceData(true); }
+inline ViconClient.disableDeviceData() { this.enableDeviceData(false); }
+
+function Boolean ViconClient.isSegmentDataEnabled() = "ViconClientIsSegmentDataEnabled";
+function Boolean ViconClient.isMarkerDataEnabled() = "ViconClientIsMarkerDataEnabled";
+function Boolean ViconClient.isUnlabeledMarkerDataEnabled() = "ViconClientIsUnlabeledMarkerDataEnabled";
+function Boolean ViconClient.isDeviceDataEnabled() = "ViconClientIsDeviceDataEnabled";
+
+function ViconClient.setStreamMode(ViconStreamMode mode) = "ViconClientSetStreamMode";
+
+function ViconClient.setAxisMapping(ViconAxisMapping map) = "ViconClientSetAxisMapping";
+function ViconAxisMapping ViconClient.getAxisMapping() = "ViconClientGetAxisMapping";
+
+function ViconClient.getFrame() = "ViconClientGetFrame";
+function UInt32 ViconClient.getFrameNumber!() = "ViconClientGetFrameNumber";
+
+function ViconTimeCode ViconClient.getTimeCode!() = "ViconClientGetTimecode";
+
+function UInt32 ViconClient.getLatencySampleCount!() = "ViconClientGetLatencySampleCount";
+function String ViconClient.getLatencySampleName!(UInt32 index) = "ViconClientGetLatencySampleName";
+function Float64 ViconClient.getLatencySampleValue!(String name) = "ViconClientGetLatencySampleValue";
+function Float64 ViconClient.getLatencyTotal!() = "ViconClientGetLatencyTotal";
+
+function UInt32 ViconClient.getSubjectCount!() = "ViconClientGetSubjectCount";
+function String ViconClient.getSubjectName!(UInt32 index) = "ViconClientGetSubjectName";
+
+function String ViconClient.getSubjectRootSegmentName!(String subject) = "ViconClientGetSubjectRootSegmentName";
+function UInt32 ViconClient.getSegmentCount!(String subject) = "ViconClientGetSegmentCount";
+function String ViconClient.getSegmentName!(String subject, UInt32 index) = "ViconClientGetSegmentName";
+
+function UInt32 ViconClient.getSegmentChildCount!(String subject, String segment) = "ViconClientGetSegmentChildCount";
+function String ViconClient.getSegmentChildName!(String subject, String segment, UInt32 index) = "ViconClientGetSegmentChildName";
+function String ViconClient.getSegmentParentName!(String subject, String segment) = "ViconClientGetSegmentParentName";
+
+function Vec3 ViconClient.getSegmentStaticTranslation!(String subject, String segment) = "ViconClientGetSegmentStaticTranslation";
+function Vec3 ViconClient.getSegmentStaticRotationHelical!(String subject, String segment) = "ViconClientGetSegmentStaticRotationHelical";
+function Mat33 ViconClient.getSegmentStaticRotationMatrix!(String subject, String segment) = "ViconClientGetSegmentStaticRotationMatrix";
+function Quat ViconClient.getSegmentStaticRotationQuaternion!(String subject, String segment) = "ViconClientGetSegmentStaticRotationQuaternion";
+function Euler ViconClient.getSegmentStaticRotationEulerXYZ!(String subject, String segment) = "ViconClientGetSegmentStaticRotationEulerXYZ";
+
+function Vec3 ViconClient.getSegmentGlobalTranslation!(String subject, String segment) = "ViconClientGetSegmentGlobalTranslation";
+function Vec3 ViconClient.getSegmentGlobalRotationHelical!(String subject, String segment) = "ViconClientGetSegmentGlobalRotationHelical";
+function Mat33 ViconClient.getSegmentGlobalRotationMatrix!(String subject, String segment) = "ViconClientGetSegmentGlobalRotationMatrix";
+function Quat ViconClient.getSegmentGlobalRotationQuaternion!(String subject, String segment) = "ViconClientGetSegmentGlobalRotationQuaternion";
+function Euler ViconClient.getSegmentGlobalRotationEulerXYZ!(String subject, String segment) = "ViconClientGetSegmentGlobalRotationEulerXYZ";
+
+function Vec3 ViconClient.getSegmentLocalTranslation!(String subject, String segment) = "ViconClientGetSegmentLocalTranslation";
+function Vec3 ViconClient.getSegmentLocalRotationHelical!(String subject, String segment) = "ViconClientGetSegmentLocalRotationHelical";
+function Mat33 ViconClient.getSegmentLocalRotationMatrix!(String subject, String segment) = "ViconClientGetSegmentLocalRotationMatrix";
+function Quat ViconClient.getSegmentLocalRotationQuaternion!(String subject, String segment) = "ViconClientGetSegmentLocalRotationQuaternion";
+function Euler ViconClient.getSegmentLocalRotationEulerXYZ!(String subject, String segment) = "ViconClientGetSegmentLocalRotationEulerXYZ";
+                                                                            

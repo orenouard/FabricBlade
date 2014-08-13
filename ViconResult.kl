@@ -1,0 +1,21 @@
+/*
+ * Fabric Core 1.11.4
+ * Vicon Datastream EDK Sample
+ */
+
+struct ViconResult
+{
+    Data handle;
+
+    Boolean occluded;
+};
+
+// function ViconResult() = "ViconResultConstructor";
+// function ~ViconResult() = "ViconResultDestructor";
+
+function ViconResult(String name) = "ViconResultFromString";
+function Integer ViconResult.asCode() = "ViconResultAsCode";
+function String ViconResult.asString() = "ViconResultAsString";
+function Boolean ViconResult.isSuccess() = "ViconResultIsSuccess";
+function Boolean == (ViconResult a, ViconResult b) = "ViconResultEqual";
+function Boolean != (ViconResult a, ViconResult b) = "ViconResultNotEqual";

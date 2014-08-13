@@ -1,0 +1,15 @@
+/*
+ * Fabric Core 1.11.4
+ * Vicon Datastream EDK Sample
+ */
+
+struct ViconTimeCodeStandard
+{
+    Data handle;
+};
+
+function ViconTimeCodeStandard(String name) = "ViconTimeCodeStandardFromString";
+function Integer ViconTimeCodeStandard.asCode() = "ViconTimeCodeStandardAsCode";
+function String ViconTimeCodeStandard.asString() = "ViconTimeCodeStandardAsString";
+function Boolean == (ViconTimeCodeStandard a, ViconTimeCodeStandard b) = "ViconTimeCodeStandardEqual";
+function Boolean != (ViconTimeCodeStandard a, ViconTimeCodeStandard b) = "ViconTimeCodeStandardNotEqual";

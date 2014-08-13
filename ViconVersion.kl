@@ -1,0 +1,38 @@
+/*
+ * Fabric Core 1.11.4
+ * Vicon Datastream EDK Sample
+ */
+
+struct ViconVersion
+{
+    Integer major;
+    Integer minor;
+    Integer point;
+};
+
+// constructor using 3 integers
+inline ViconVersion(in Integer major, in Integer minor, in Integer point) {
+  this.major = major;
+  this.minor = minor;
+  this.point = point;
+}
+
+inline String ViconVersion.asString()
+{
+  return (String(this.major)+"."+String(this.minor)+"."+String(this.point));
+}
+
+// equals operator
+inline Boolean == (ViconVersion a, ViconVersion b) {
+  return a.major == b.major && a.minor == b.minor && a.point == b.point;
+}
+
+// not equals operator
+inline Boolean != (ViconVersion a, ViconVersion b) {
+  return a.major != b.major || a.minor != b.minor || a.point != b.point;
+}
+
+// superior or equal operator
+inline Boolean >= (ViconVersion a, ViconVersion b) {
+	return a.major >= b.major && a.minor >= b.minor && a.point >= b.point;
+}

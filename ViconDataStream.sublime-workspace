@@ -1,0 +1,321 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/aliases.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/conversion.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/global.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/global_functions.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/Handle.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/macros.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconAxisMapping.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconAxisMapping.kl",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconClient.cpp",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconClient.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconClient.kl",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconClient_functions.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconDataStream.cpp",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconDataStream.fpm.json",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconDataStream.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconDataStream.kl",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/test.py",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconDirection.cpp",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconDirection.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconDirection.kl",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconDirection_functions.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconResult.cpp",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconResult.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconResult.kl",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconResult_functions.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconStreamMode.cpp",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconStreamMode.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconStreamMode.kl",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconStreamMode_functions.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconTimeCode.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconTimeCode.kl",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconTimeCodeStandard.cpp",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconTimeCodeStandard.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconTimeCodeStandard.kl",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconTimeCodeStandard_functions.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconVersion.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconVersion.kl",
+		"/C/Program Files/Fabric Engine/Exts/Builtin/Math/Quat.kl",
+		"/C/Program Files/Fabric Engine/Exts/Builtin/Math/Vec3.kl",
+		"/C/Program Files/Fabric Engine/Exts/Builtin/Math/Mat33.kl",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconDataStream.sublime-project",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/environment.bat",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/back/ViconClient.cpp",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconDataStream.jpm.json",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/03_opaqueextension/OpaqueExtension.kl",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/03_opaqueextension/OpaqueExtension.cpp",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/kl-liblas-master/src/LibLasReader.kl",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/FabricArnold/FabricArnold.kl",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/FabricArnold/nodes.kl",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/FabricArnold/cpp/nodes.cpp",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/FabricArnold/cpp/nodes.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/FabricArnold/AtNode.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/FabricArnold/cpp/FabricArnold.cpp",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/FabricArnold/cpp/enum.cpp",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/FabricArnold/AtNode_functions.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/kl-liblas-master/src/LibLasHeader.kl",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/HelloWorld/HelloWorld.kl",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/kl-liblas-master/src/liblas.codegen.json",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/ViconTypes.kl",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/HelloWorld/HelloWorld.cpp",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/PLY/FabricPLY.cpp",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/PLY/FabricPLY.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/kl-liblas-master/src/macros.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/HelloWorld/test.py",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDataStream/SConstruct",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/HelloWorld/HelloWorld.fpm.json",
+		"/C/Users/orenouard/AppData/Roaming/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/kl-liblas-master/src/conversion.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/PLY/FabricPLY.kl",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/Vicon/FabricVicon.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/Vicon/FabricVicon.cpp",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDatastream/FabricViconDatastream.kl",
+		"/D/orenouard/Eclipse/Vicon/DataStreamSDK/Win64/CPP/Client.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDatastream/FabricViconDatastream.cpp",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDatastream/FabricViconDatastream.jpm.json",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDatastream/test.py",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDatastream/Handle.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDatastream/FabricViconDatastream.json",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDatastream/FabricViconDatastream.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDatastream/ViconClient.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDatastream/ViconVersion.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDatastream/global_functions.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDatastream/global.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/ViconDatastream/ViconClient_functions.h",
+		"/D/orenouard/Eclipse/Vicon/server.py",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/Vicon/server.py",
+		"/D/orenouard/Eclipse/Vicon/sniff.py",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/Vicon/FabricVicon.kl",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/Vicon/test.py",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/Vicon/Vicon/ViconDataStreamSDK_CPPTest.cpp",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/PLY/bun_zipper_res4.ply",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/PLY/test.py",
+		"/D/orenouard/maya/projects/Splice/scripts/verlet.kl",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/PLY/PlyPolygonMeshComponent.kl",
+		"/D/orenouard/Eclipse/Fabric Engine/Python/computeTerm.kl",
+		"/D/orenouard/Eclipse/Fabric Engine/Python/seriesHTTPServer.py",
+		"/D/orenouard/Eclipse/Fabric Engine/Python/test01.py",
+		"/C/Program Files/Fabric Engine/Apps/Math/Mandelbrot/Mandelbrot.py",
+		"/C/Program Files/Fabric Engine/Apps/BasicDemos/SceneBuilder.py",
+		"/C/Program Files/Fabric Engine/Apps/BasicDemos/Annotation.py",
+		"/D/orenouard/Eclipse/Fabric Engine/Python/sumTerms.kl",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/include/Fabric/EDK/Math.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/include/Fabric/EDK/Common.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/include/Fabric/EDK/EDK.h",
+		"/D/orenouard/Eclipse/Fabric Engine/API/SGCAPI/CmdLineTest/main.cpp",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/Alembic/AlembicPolygonMeshComponent.kl",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/PLY/ply-1.1/plytest.c",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/PLY/ply-1.1/plyfile.c",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/PLY/ply-1.1/ply.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/PLY/PlyHandle_new.h",
+		"/D/orenouard/Eclipse/Fabric Engine/EDK/Samples/PLY/bun_zipper.ply",
+		"/D/orenouard/Eclipse/Creation Platform/EDK/Samples/Alembic/FabricALEMBIC.kl",
+		"/D/orenouard/Eclipse/Creation Platform/EDK/Samples/PLY/ply-1.1/ply.h",
+		"/D/orenouard/Eclipse/Creation Platform/EDK/Samples/PLY/ply-1.1/plytest.c",
+		"/D/orenouard/Eclipse/Creation Platform/EDK/Samples/PLY/ply-1.1/plyfile.c",
+		"/D/orenouard/Eclipse/Creation Platform/EDK/Samples/Alembic/AlembicExplorer.py",
+		"/D/orenouard/Eclipse/Creation Platform/EDK/Samples/04_rapidxml/RapidXmlDoc.kl",
+		"/D/orenouard/Eclipse/Creation Platform/EDK/Samples/04_rapidxml/RapidXmlDoc.cpp",
+		"/D/orenouard/Eclipse/Creation Platform/EDK/Samples/04_rapidxml/types.h",
+		"/D/orenouard/Eclipse/Creation Platform/EDK/Samples/04_rapidxml/rapidxml-1.13/rapidxml.hpp",
+		"/D/orenouard/Eclipse/Creation Platform/EDK/Samples/04_rapidxml/SConstruct",
+		"/D/orenouard/Eclipse/Creation Platform/EDK/Samples/04_rapidxml/RapidXmlAttr.kl",
+		"/D/orenouard/Eclipse/Creation Platform/EDK/Samples/04_rapidxml/RapidXmlNode.kl",
+		"/D/orenouard/Eclipse/Creation Platform/EDK/Samples/04_rapidxml/test.cpp",
+		"/D/orenouard/Eclipse/Creation Platform/EDK/Samples/HelloWorld/HelloWorld.cpp",
+		"/D/orenouard/Eclipse/Creation Platform/EDK/Samples/HelloWorld/HelloWorld.kl",
+		"/D/orenouard/Eclipse/Creation Platform/EDK/Samples/HelloWorld/test.py",
+		"/D/orenouard/Eclipse/Creation Platform/EDK/Samples/PLY/FabricPLY.fpm.json"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<open folders>",
+			"D:\\orenouard\\Eclipse\\Fabric Engine"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"ViconClientGetSegmentStaticTranslation",
+			"Global",
+			"const String & SegmentName ) const;",
+			"( const String & SubjectName,",
+			"Fabric::EDK::KL::String",
+			"ViconClientGetSubjectName",
+			"ResultEnumToString",
+			"conv_from_KLStruct",
+			"conv_to_KLStruct",
+			"ViconStreamMode",
+			"ViconResult",
+			"connect",
+			"viconResult",
+			"connectResult",
+			"\":",
+			":\\n",
+			":",
+			"case",
+			"client",
+			"ply_read",
+			"FILE",
+			"get_words",
+			"ascii_get_element",
+			"ply_get_element",
+			"elem_names",
+			"ply_read",
+			"elem_names",
+			"ascii_get_element",
+			"ply_get_element",
+			"plist",
+			"elem_names",
+			"version",
+			"Vec3",
+			"ply_read",
+			"ply_close",
+			"m_fileGetPath",
+			"String",
+			"m_fileHandleCreateFromPath",
+			"setError",
+			"FABRIC_EXT_SETERROR_AND_RETURN_VALUE",
+			"ply_read",
+			"vert_props",
+			"Vertex",
+			"xml_document",
+			"PlyFile",
+			"Core/Native",
+			"Core"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Local",
+			"",
+			"ViconDirection",
+			"ViconStreamMode",
+			"result",
+			"viconResult",
+			"\"))",
+			"else if(!strcmp(i_Name, \""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 283.0,
+	"status_bar_visible": true
+}

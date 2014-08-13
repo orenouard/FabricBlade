@@ -1,0 +1,15 @@
+/*
+ * Fabric Core 1.11.4
+ * Vicon Datastream EDK Sample
+ */
+
+struct ViconDirection
+{
+    Data handle;
+};
+
+function ViconDirection(String name) = "ViconDirectionFromString";
+function Integer ViconDirection.asCode() = "ViconDirectionAsCode";
+function String ViconDirection.asString() = "ViconDirectionAsString";
+function Boolean == (ViconDirection a, ViconDirection b) = "ViconDirectionEqual";
+function Boolean != (ViconDirection a, ViconDirection b) = "ViconDirectionNotEqual";

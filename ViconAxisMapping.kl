@@ -1,0 +1,31 @@
+/*
+ * Fabric Core 1.11.4
+ * Vicon Datastream EDK Sample
+ */
+
+struct ViconAxisMapping
+{
+    ViconDirection XAxis;
+    ViconDirection YAxis;
+    ViconDirection ZAxis;
+};
+
+inline ViconAxisMapping(String xdir, String ydir, String zdir)
+{
+  this.XAxis = ViconDirection(xdir);
+  this.YAxis = ViconDirection(ydir);
+  this.ZAxis = ViconDirection(zdir);
+}
+inline String ViconAxisMapping.asString()
+{
+  return ("("+this.XAxis.asString()+", "+this.YAxis.asString()+", "+this.ZAxis.asString()+")");
+}
+inline Boolean == (ViconAxisMapping a, ViconAxisMapping b)
+{
+  return (a.XAxis == b.XAxis && a.YAxis == b.YAxis && a.ZAxis == b.ZAxis);
+}
+inline Boolean != (ViconAxisMapping a, ViconAxisMapping b)
+{
+  return (a.XAxis != b.XAxis || a.YAxis != b.YAxis || a.ZAxis != b.ZAxis);
+}
+

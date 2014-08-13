@@ -1,0 +1,14 @@
+{
+  "libs": "ViconDataStream",
+  "code": [
+		"ViconResult.kl",
+		"ViconStreamMode.kl",
+		"ViconVersion.kl",
+		"ViconDirection.kl",
+		"ViconAxisMapping.kl",
+		"ViconTimeCodeStandard.kl",
+		"ViconTimeCode.kl",		
+		"ViconClient.kl",
+		"ViconDataStream.kl"
+	]
+}
